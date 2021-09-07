@@ -1,0 +1,82 @@
+.wrapper {
+  max-width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+#grid {
+  background-color: #fff;
+  /*
+  background-image: url("../grid.JPG");
+  */
+}
+
+.options {
+  display: block;
+  padding: 10px;
+  background-color: rgb(246, 246, 246);
+}
+
+.square {
+  height: 100%;
+  width: 80%;
+  background-color: #555;
+  color: white;
+  margin-left: 20px;
+}
+
+.fill-green {
+  background-color: rgb(3, 102, 3);
+}
+
+.fill-red {
+  background-color: rgb(211, 1, 1);
+}
+
+#info {
+  display: grid;
+  padding: 40px;
+}
+
+.rowWrapper {
+  display: flex;
+}
+
+.resetBtn {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  border-radius: 0.5em;
+  height: 2.5em;
+  margin-bottom: 20px;
+}
+
+.visualizeBtn {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  height: 2.5em;
+  margin-bottom: 20px;
+}
+
+.genWallsBtn {
+  background-color: rgb(20, 93, 177);
+  color: white;
+  border: 2px solid rgb(20, 93, 177);
+  border-radius: 0.5em;
+  height: 2.5em;
+  margin-bottom: 20px;
+}
+
+.algorithms {
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  background-color: #e7e7e7;
+}
